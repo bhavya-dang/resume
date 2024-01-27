@@ -1,0 +1,175 @@
+{
+  "selectedTemplate": 1,
+  "headings": {
+    "work": "Experience",
+    "projects": "Projects",
+    "awards": "Awards",
+    "education": "Education"
+  },
+  "basics": {
+    "name": "Bhavya Dang",
+    "email": "bhavya.dang1207@gmail.com",
+    "website": "http://github.com/Sync-Codes",
+    "location": {
+      "address": "Delhi, India"
+    }
+  },
+  "education": [
+    {
+      "location": "Nodia",
+      "startDate": "2021",
+      "endDate": "2025",
+      "institution": "Amity University",
+      "studyType": "Bachelors in",
+      "area": "Computer Science",
+      "gpa": "8.43"
+    }
+  ],
+  "work": [
+    {
+      "website": "",
+      "highlights": [null]
+    },
+    {
+      "highlights": [
+        "Hosted and conducted own workshop on MEVN Stack",
+        "Organized 4 major events back-to-back with an average audience of almost 150 participants",
+        "Connected and collaborated with various entrepreneurs and developers and conducted successful workshops"
+      ],
+      "company": "ALiAS - Amity Linux Assistance Sapience",
+      "position": "Active Volunteer",
+      "location": "Delhi",
+      "startDate": "2022"
+    },
+    {
+      "highlights": [
+        "Worked on form recognition system for hospitals in Uganda",
+        "Tested and Validated several form, making sure that they pass the criteria for the AutoCorrection and Clarity system"
+      ],
+      "company": "ByFornoTri Tech",
+      "position": "SDE Intern",
+      "location": "Remote",
+      "startDate": "Apr 3, 2023",
+      "endDate": "May 3, 2023"
+    },
+    {
+      "highlights": [
+        "Built an autonomous, centralised air purifying system in under 2 days using Raspberry Pi 4, Vue.js, Tailwind and MongoDB",
+        "Integrated Twilio API to send SMS alerts to residents when air quality is toxic and OpenWeather API to simulate air quality data",
+        "Networked with lots of people and attended various workshops"
+      ],
+      "company": "Hack the Mountains 3.0 Hackathon",
+      "startDate": "17 Sep, 2022",
+      "endDate": "18 Sep, 2022",
+      "location": "Delhi"
+    },
+    {
+      "highlights": [
+        "Managed thousands of users and helped them with various problems",
+        "Collaborated with developers for various projects"
+      ],
+      "position": "Discord Community Manager",
+      "location": "Remote",
+      "company": "Personal Programming Sever",
+      "startDate": "2018",
+      "endDate": "2020"
+    }
+  ],
+  "skills": [
+    {
+      "level": "",
+      "keywords": ["JavaScript", "Python"],
+      "name": "Programming Languages"
+    },
+    {
+      "keywords": [
+        "Vue.js",
+        "React.js",
+        "Django",
+        "Flask",
+        "Tailwind CSS",
+        "Astro",
+        "Next.js",
+        "Nuxt.js"
+      ],
+      "name": "Frameworks"
+    },
+    {
+      "keywords": [
+        "MongoDB",
+        "MySQL",
+        "Firebase",
+        "PostgreSQL",
+        "Prisma (ORM)",
+        "Supabase"
+      ],
+      "name": "Databases"
+    },
+    {
+      "keywords": ["Figma", "Photoshop", "After Effects"],
+      "name": "Design"
+    }
+  ],
+  "projects": [
+    {
+      "keywords": [
+        "React.js",
+        "TailwindCSS",
+        "DaisyUI",
+        "Bun",
+        "Supabase",
+        "Pinecone"
+      ],
+      "name": "browser-mingle",
+      "description": "A chrome extension that connects you with people who are consuming similar content.",
+      "url": "https://github.com/Sync-Codes/browser-mingle"
+    },
+    {
+      "keywords": ["React.js", "TailwindCSS", "DaisyUI", "D3.js"],
+      "name": "D3Movie",
+      "description": "A movie app that uses D3.js to visualize movie data. Built for movie enthusiasts and analysts.",
+      "url": "https://d3-movie.vercel.app/"
+    },
+    {
+      "name": "AniKo",
+      "description": "A simple anime and manga search list.",
+      "url": "https://ani-ko.netlify.app",
+      "keywords": ["Node.js", "Vue.js", "GraphQL", "TailwindCSS"]
+    },
+    {
+      "keywords": ["Node.js", "Vue.js", "MongoDB"],
+      "name": "Shortly",
+      "description": "A url shortener built with MEVN stack.",
+      "url": "https://shortly-site.onrender.com/"
+    },
+    {
+      "keywords": ["Discord.js", "Node.js"],
+      "url": "https://github.com/Sync-Codes/RyujinBot",
+      "description": "A multi-purpose discord bot used by more than 20 servers and over 143k members.",
+      "name": "RyujinBot"
+    }
+  ],
+  "awards": [
+    {
+      "title": "Gold Medal - Zonal Robotics Competition",
+      "awarder": "Government, 2019"
+    },
+    {
+      "title": "Silver Medal - SOF Computer Science Olympiad",
+      "awarder": "SOF, 2019"
+    },
+    {
+      "title": "Silver Medal - SOF English Olympiad",
+      "awarder": "SOF, 2019"
+    }
+  ],
+  "sections": [
+    "templates",
+    "profile",
+    "education",
+    "work",
+    "skills",
+    "projects",
+    "awards"
+  ]
+}
