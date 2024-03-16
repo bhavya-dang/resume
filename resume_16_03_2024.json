@@ -9,7 +9,7 @@
   "basics": {
     "name": "Bhavya Dang",
     "email": "bhavya.dang1207@gmail.com",
-    "website": "http://github.com/Sync-Codes",
+    "website": "http://github.com/bhavya-dang",
     "location": {
       "address": "Delhi, India"
     }
@@ -122,7 +122,7 @@
       ],
       "name": "browser-mingle",
       "description": "A chrome extension that connects you with people who are consuming similar content.",
-      "url": "https://github.com/Sync-Codes/browser-mingle"
+      "url": "https://github.com/bhavya-dang/browser-mingle"
     },
     {
       "keywords": ["React.js", "TailwindCSS", "DaisyUI", "D3.js"],
@@ -144,7 +144,7 @@
     },
     {
       "keywords": ["Discord.js", "Node.js"],
-      "url": "https://github.com/Sync-Codes/RyujinBot",
+      "url": "https://github.com/bhavya-dang/RyujinBot",
       "description": "A multi-purpose discord bot used by more than 20 servers and over 143k members.",
       "name": "RyujinBot"
     }
