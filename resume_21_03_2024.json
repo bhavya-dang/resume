@@ -54,25 +54,25 @@
     },
     {
       "highlights": [
-        "Built an autonomous, centralised air purifying system in under 2 days using Raspberry Pi 4, Vue.js, Tailwind and MongoDB",
-        "Integrated Twilio API to send SMS alerts to residents when air quality is toxic and OpenWeather API to simulate air quality data",
-        "Networked with lots of people and attended various workshops"
+        "Built BrowserMingle, a chrome extension that connects you with people who are consuming similar content.",
+        "Uses Pinecone vector database for similarity search and Supabase for edge functions and data storage",
+        "React.js, TailwindCSS and DaisyUI for the frontend and Bun for the backend"
       ],
-      "company": "Hack the Mountains 3.0 Hackathon",
-      "startDate": "17 Sep, 2022",
-      "endDate": "18 Sep, 2022",
-      "location": "Delhi"
+      "company": "Supabase Week X Hackathon",
+      "startDate": "12 Dec, 2023",
+      "endDate": "19 Dec, 2023",
+      "location": "Remote"
     },
     {
       "highlights": [
-        "Managed thousands of users and helped them with various problems",
-        "Collaborated with developers for various projects"
+        "Participated with the idea of an Integrated Project Showcase Platform that would let users showcase their projects online to a community of researchers and developers",
+        "Users can share their projects, get feedback and collaborate with other users",
+        "Built with AWS S3, Supabase, React, TailwindCSS and UI was made with Figma"
       ],
-      "position": "Discord Community Manager",
-      "location": "Remote",
-      "company": "Personal Programming Sever",
-      "startDate": "2018",
-      "endDate": "2020"
+      "location": "Delhi",
+      "company": "Smart India Hackathon",
+      "startDate": "2023",
+      "endDate": "2023"
     }
   ],
   "skills": [
