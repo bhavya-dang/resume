@@ -9,7 +9,7 @@
   "basics": {
     "name": "Bhavya Dang",
     "email": "bhavya.dang1207@gmail.com",
-    "website": "http://github.com/bhavya-dang",
+    "website": "https://github.com/bhavya-dang",
     "location": {
       "address": "Delhi, India"
     }
@@ -22,7 +22,7 @@
       "institution": "Amity University",
       "studyType": "Bachelors in",
       "area": "Computer Science",
-      "gpa": "8.43"
+      "gpa": "8.25"
     }
   ],
   "work": [
@@ -32,31 +32,31 @@
     },
     {
       "highlights": [
+        "Sustainable Discipleship is a platform designed to foster Christian community and spiritual growth by enabling users to create organizations and groups. Leaders and disciples can engage with the Holy Bible and other Christian texts. The platform includes distinct screens tailored for different roles and adheres to GDPR guidelines.",
+        "Tech Stack: React, Material UI, MySQL (Knex ORM), Express and Vercel"
+      ],
+      "location": "Remote",
+      "position": "Full-Time Trainee",
+      "company": "D2I Technology",
+      "startDate": "15 May, 2024",
+      "endDate": "5 July, 2024"
+    },
+    {
+      "highlights": [
         "Hosted and conducted own workshop on MEVN Stack",
-        "Organized 4 major events back-to-back with an average audience of almost 150 participants",
-        "Connected and collaborated with various entrepreneurs and developers and conducted successful workshops"
+        "Organized 4 major events back-to-back with an average audience of almost 150 participants and conducted successful workshops"
       ],
       "company": "ALiAS - Amity Linux Assistance Sapience",
       "position": "Active Volunteer",
       "location": "Delhi",
-      "startDate": "2022"
-    },
-    {
-      "highlights": [
-        "Worked on form recognition system for hospitals in Uganda",
-        "Tested and Validated several form, making sure that they pass the criteria for the AutoCorrection and Clarity system"
-      ],
-      "company": "ByFornoTri Tech",
-      "position": "SDE Intern",
-      "location": "Remote",
-      "startDate": "Apr 3, 2023",
-      "endDate": "May 3, 2023"
+      "startDate": "2022",
+      "endDate": "2024"
     },
     {
       "highlights": [
         "Built BrowserMingle, a chrome extension that connects you with people who are consuming similar content.",
         "Uses Pinecone vector database for similarity search and Supabase for edge functions and data storage",
-        "React.js, TailwindCSS and DaisyUI for the frontend and Bun for the backend"
+        "React, Tailwind and DaisyUI for the frontend and Bun for the backend"
       ],
       "company": "Supabase Week X Hackathon",
       "startDate": "12 Dec, 2023",
@@ -65,19 +65,19 @@
     },
     {
       "highlights": [
-        "Participated with the idea of an Integrated Project Showcase Platform that would let users showcase their projects online to a community of researchers and developers",
-        "Users can share their projects, get feedback and collaborate with other users",
-        "Built with AWS S3, Supabase, React, TailwindCSS and UI was made with Figma"
+        "Worked on form recognition system for hospitals in Uganda",
+        "Tested and Validated several forms, making sure that they pass the criteria for the AutoCorrection and Clarity system"
       ],
-      "location": "Delhi",
-      "company": "Smart India Hackathon",
-      "startDate": "2023",
-      "endDate": "2023"
+      "company": "ByFornoTri Tech",
+      "position": "SDE Intern",
+      "location": "Remote",
+      "startDate": "Apr 3, 2023",
+      "endDate": "May 3, 2023"
     }
   ],
   "skills": [
     {
-      "level": "",
+      "level": "Intermediate",
       "keywords": ["JavaScript", "Python"],
       "name": "Programming Languages"
     },
@@ -85,8 +85,6 @@
       "keywords": [
         "Vue.js",
         "React.js",
-        "Django",
-        "Flask",
         "Tailwind CSS",
         "Astro",
         "Next.js",
@@ -101,6 +99,7 @@
         "Firebase",
         "PostgreSQL",
         "Prisma (ORM)",
+        "Knex (ORM)",
         "Supabase"
       ],
       "name": "Databases"
@@ -113,8 +112,8 @@
   "projects": [
     {
       "keywords": [
-        "React.js",
-        "TailwindCSS",
+        "React",
+        "Tailwind",
         "DaisyUI",
         "Bun",
         "Supabase",
@@ -125,7 +124,7 @@
       "url": "https://github.com/bhavya-dang/browser-mingle"
     },
     {
-      "keywords": ["React.js", "TailwindCSS", "DaisyUI", "D3.js"],
+      "keywords": ["React", "Tailwind", "DaisyUI", "D3.js"],
       "name": "D3Movie",
       "description": "A movie app that uses D3.js to visualize movie data. Built for movie enthusiasts and analysts.",
       "url": "https://d3-movie.vercel.app/"
@@ -134,10 +133,10 @@
       "name": "AniKo",
       "description": "A simple anime and manga search list.",
       "url": "https://ani-ko.netlify.app",
-      "keywords": ["Node.js", "Vue.js", "GraphQL", "TailwindCSS"]
+      "keywords": ["Node.js", "Vue", "GraphQL", "Tailwind"]
     },
     {
-      "keywords": ["Node.js", "Vue.js", "MongoDB"],
+      "keywords": ["Node.js", "Vue", "MongoDB"],
       "name": "Shortly",
       "description": "A url shortener built with MEVN stack.",
       "url": "https://shortly-site.onrender.com/"
