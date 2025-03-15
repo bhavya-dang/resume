@@ -9,7 +9,7 @@
   "basics": {
     "name": "Bhavya Dang",
     "email": "bhavya.dang1207@gmail.com",
-    "website": "https://github.com/bhavya-dang",
+    "website": "bhavyadang.in",
     "location": {
       "address": "Delhi, India"
     }
@@ -27,19 +27,35 @@
   ],
   "work": [
     {
-      "website": "",
+      "website": "https://ciena.com",
       "highlights": [null]
     },
     {
       "highlights": [
-        "Sustainable Discipleship is a platform designed to foster Christian community and spiritual growth by enabling users to create organizations and groups. Leaders and disciples can engage with the Holy Bible and other Christian texts. The platform includes distinct screens tailored for different roles and adheres to GDPR guidelines.",
-        "Tech Stack: React, Material UI, MySQL (Knex ORM), Express and Vercel"
+        "Develop and maintain automated test frameworks to ensure the reliability and performance of PlannerPlus, Ciena’s advanced photonic DWDM network planning tool.",
+        "Implement automation strategies to validate network designs, optimize link engineering, and streamline deployment workflows.",
+        "Work with cutting-edge technologies supporting 10G to 800G wavelengths and client services, ensuring seamless integration and high-performance network solutions.",
+        "Collaborate cross-functionally with development, QA, and network engineering teams to refine testing methodologies and improve software quality."
+      ],
+      "location": "Hybrid",
+      "position": "SDET Intern",
+      "company": "Ciena",
+      "startDate": "6 Jan, 2024",
+      "endDate": "Present"
+    },
+    {
+      "highlights": [
+        "Community Building: Enables users to create and manage organizations and groups, facilitating meaningful engagement among leaders and disciples.",
+        "Scripture Integration: Provides access to the Holy Bible and other Christian texts to support discipleship and spiritual development.",
+        "Role-Based Experience: Features distinct user interfaces tailored to different roles, ensuring a seamless and personalized experience.",
+        "Compliance & Security: Adheres to GDPR guidelines, prioritizing data privacy and regulatory compliance."
       ],
       "location": "Remote",
       "position": "Full-Time Trainee",
       "company": "D2I Technology",
       "startDate": "15 May, 2024",
-      "endDate": "5 July, 2024"
+      "endDate": "5 July, 2024",
+      "website": "https://www.sustainable-discipleship.com/"
     },
     {
       "highlights": [
@@ -51,49 +67,21 @@
       "location": "Delhi",
       "startDate": "2022",
       "endDate": "2024"
-    },
-    {
-      "highlights": [
-        "Built BrowserMingle, a chrome extension that connects you with people who are consuming similar content.",
-        "Uses Pinecone vector database for similarity search and Supabase for edge functions and data storage",
-        "React, Tailwind and DaisyUI for the frontend and Bun for the backend"
-      ],
-      "company": "Supabase Week X Hackathon",
-      "startDate": "12 Dec, 2023",
-      "endDate": "19 Dec, 2023",
-      "location": "Remote"
-    },
-    {
-      "highlights": [
-        "Worked on form recognition system for hospitals in Uganda",
-        "Tested and Validated several forms, making sure that they pass the criteria for the AutoCorrection and Clarity system"
-      ],
-      "company": "ByFornoTri Tech",
-      "position": "SDE Intern",
-      "location": "Remote",
-      "startDate": "Apr 3, 2023",
-      "endDate": "May 3, 2023"
     }
   ],
   "skills": [
     {
       "level": "Intermediate",
-      "keywords": ["JavaScript", "Python"],
+      "keywords": ["JavaScript", "Python", "Go"],
       "name": "Programming Languages"
     },
     {
-      "keywords": [
-        "Vue.js",
-        "React",
-        "Tailwind CSS",
-        "Astro",
-        "Next.js",
-        "Nuxt.js"
-      ],
+      "keywords": ["Vue.js", "React", "Tailwind CSS", "Next.js"],
       "name": "Frameworks"
     },
     {
       "keywords": [
+        "Redis",
         "MongoDB",
         "MySQL",
         "Firebase",
@@ -111,29 +99,22 @@
   ],
   "projects": [
     {
-      "keywords": [
-        "React",
-        "Tailwind",
-        "DaisyUI",
-        "Bun",
-        "Supabase",
-        "Pinecone"
-      ],
+      "keywords": ["Redis", "Typescript"],
+      "name": "memoradb",
+      "description": "A lightweight, type-safe, Redis-like, in-memory, key-value store written in TypeScript",
+      "url": "https://www.npmjs.com/package/memoradb"
+    },
+    {
+      "keywords": ["React", "Tailwind", "DaisyUI", "Supabase", "Pinecone"],
       "name": "browser-mingle",
       "description": "A chrome extension that connects you with people who are consuming similar content.",
-      "url": "https://github.com/bhavya-dang/browser-mingle"
+      "url": "https://bhavya-dang.github.io/browser-mingle-landing/"
     },
     {
       "keywords": ["React", "Tailwind", "DaisyUI", "D3.js"],
       "name": "D3Movie",
       "description": "A movie app that uses D3.js to visualize movie data. Built for movie enthusiasts and analysts.",
       "url": "https://d3-movie.vercel.app/"
-    },
-    {
-      "name": "AniKo",
-      "description": "A simple anime and manga search list.",
-      "url": "https://ani-ko.netlify.app",
-      "keywords": ["Node.js", "Vue", "GraphQL", "Tailwind"]
     },
     {
       "keywords": ["Node.js", "Vue", "MongoDB"],
@@ -152,14 +133,6 @@
     {
       "title": "Gold Medal - Zonal Robotics Competition",
       "awarder": "Government, 2019"
-    },
-    {
-      "title": "Silver Medal - SOF Computer Science Olympiad",
-      "awarder": "SOF, 2019"
-    },
-    {
-      "title": "Silver Medal - SOF English Olympiad",
-      "awarder": "SOF, 2019"
     }
   ],
   "sections": [
