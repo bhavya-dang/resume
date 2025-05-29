@@ -32,10 +32,10 @@
     },
     {
       "highlights": [
-        "Develop and maintain automated test frameworks to ensure the reliability and performance of PlannerPlus, Ciena’s advanced photonic DWDM network planning tool.",
-        "Implement automation strategies to validate network designs, optimize link engineering, and streamline deployment workflows.",
-        "Work with cutting-edge technologies supporting 10G to 800G wavelengths and client services, ensuring seamless integration and high-performance network solutions.",
-        "Collaborate cross-functionally with development, QA, and network engineering teams to refine testing methodologies and improve software quality."
+        "Develop and maintain automated testsuites to ensure the reliability and performance of PlannerPlus, Ciena’s advanced photonic network planning tool.",
+        "Proposed and demonstrated enhancements to postman common collection API automation scripts to improve readability, reduce testing downtime, and enhance maintainability.",
+        "Collaborate cross-functionally with development, and network engineering teams to refine testing methodologies and improve software quality.",
+        "Working on a POC to rewrite API automation using Playwright for significantly faster execution and greater versatility."
       ],
       "location": "Hybrid",
       "position": "SDET Intern",
@@ -45,6 +45,7 @@
     },
     {
       "highlights": [
+        "Worked on a project called Sustainable Discipleship targeted towards catholics.",
         "Community Building: Enables users to create and manage organizations and groups, facilitating meaningful engagement among leaders and disciples.",
         "Scripture Integration: Provides access to the Holy Bible and other Christian texts to support discipleship and spiritual development.",
         "Role-Based Experience: Features distinct user interfaces tailored to different roles, ensuring a seamless and personalized experience.",
@@ -59,8 +60,8 @@
     },
     {
       "highlights": [
-        "Hosted and conducted own workshop on MEVN Stack",
-        "Organized 4 major events back-to-back with an average audience of almost 150 participants and conducted successful workshops"
+        "Hosted and conducted a workshop on MEVN Stack, with more than 50 attendees.",
+        "Organized 4 major events back-to-back with an average audience of almost 150 participants and conducted successful workshops."
       ],
       "company": "ALiAS - Amity Linux Assistance Sapience",
       "position": "Active Volunteer",
@@ -72,11 +73,11 @@
   "skills": [
     {
       "level": "Intermediate",
-      "keywords": ["JavaScript", "Python", "Go"],
+      "keywords": ["JavaScript", "Typescript", "Python*", "Go*"],
       "name": "Programming Languages"
     },
     {
-      "keywords": ["Vue.js", "React", "Tailwind CSS", "Next.js"],
+      "keywords": ["Vue.js", "React", "Tailwind", "Next.js"],
       "name": "Frameworks"
     },
     {
@@ -86,14 +87,14 @@
         "MySQL",
         "Firebase",
         "PostgreSQL",
-        "Prisma (ORM)",
-        "Knex (ORM)",
+        "Prisma",
+        "Knex",
         "Supabase"
       ],
       "name": "Databases"
     },
     {
-      "keywords": ["Figma", "Photoshop", "After Effects"],
+      "keywords": ["Figma", "Photoshop", "After Effects", "Premiere Pro"],
       "name": "Design"
     }
   ],
@@ -111,16 +112,18 @@
       "url": "https://bhavya-dang.github.io/browser-mingle-landing/"
     },
     {
-      "keywords": ["React", "Tailwind", "DaisyUI", "D3.js"],
-      "name": "D3Movie",
-      "description": "A movie app that uses D3.js to visualize movie data. Built for movie enthusiasts and analysts.",
-      "url": "https://d3-movie.vercel.app/"
-    },
-    {
-      "keywords": ["Node.js", "Vue", "MongoDB"],
-      "name": "Shortly",
-      "description": "A url shortener built with MEVN stack.",
-      "url": "https://shortly-site.onrender.com/"
+      "keywords": [
+        "Next.js",
+        "Tailwind",
+        "Langchain",
+        "Xenova",
+        "RAG",
+        "AstraDB",
+        "Gemini"
+      ],
+      "name": "LightsOut",
+      "description": "A Retrieval-Augmented Generation (RAG) chat app for Formula One.",
+      "url": "https://lightsout.bhavyadang.in/"
     },
     {
       "keywords": ["Discord.js", "Node.js"],
