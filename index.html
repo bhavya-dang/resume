@@ -1,14 +1,697 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<html lang="en" style="width: 100%; height: 100%">
-  <head>
-    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    <title>Bhavya's Resume</title>
-  </head>
-  <body style="width: 100%; height: 100%; margin: 0">
-    <iframe
-      src="https://docs.google.com/gview?url=https://github.com/bhavya-dang/resume/raw/master/resume_07_06_25.pdf&embedded=true"
-      style="width: 100%; height: 100%"
-      frameborder="0"
-    ></iframe>
-  </body>
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Bhavya Dang — Resume</title>
+        <style>
+            @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=DM+Mono:wght@400;500&display=swap");
+
+            *,
+            *::before,
+            *::after {
+                box-sizing: border-box;
+                margin: 0;
+                padding: 0;
+            }
+
+            @page {
+                margin: 0.6in;
+            }
+
+            :root {
+                --text-primary: #1a1a1a;
+                --text-secondary: #555;
+                --text-muted: #888;
+                --border: #d4d4d4;
+                --border-light: #e8e8e8;
+                --bg-skill: #f5f5f4;
+                --mono: "DM Mono", "Courier New", monospace;
+                --sans: "Inter", system-ui, sans-serif;
+            }
+
+            html,
+            body {
+                font-family: var(--sans);
+                font-size: 13px;
+                color: var(--text-primary);
+                background: #fff;
+                line-height: 1.6;
+                -webkit-print-color-adjust: exact;
+                print-color-adjust: exact;
+            }
+
+            .page {
+                max-width: 760px;
+                margin: 0 auto;
+                padding: 2.2rem 2.6rem;
+            }
+
+            /* ── Header ── */
+            .header {
+                display: flex;
+                justify-content: space-between;
+                align-items: flex-end;
+                padding-bottom: 1rem;
+                border-bottom: 1.5px solid var(--text-primary);
+                margin-bottom: 1.4rem;
+            }
+            .name {
+                font-size: 27px;
+                font-weight: 600;
+                letter-spacing: -0.4px;
+                line-height: 1;
+            }
+            .tagline {
+                font-family: var(--mono);
+                font-size: 11.5px;
+                color: var(--text-secondary);
+                margin-top: 5px;
+            }
+            .contact {
+                text-align: right;
+                display: flex;
+                flex-direction: column;
+                gap: 3px;
+            }
+            .contact a {
+                font-family: var(--mono);
+                font-size: 11px;
+                color: var(--text-secondary);
+                text-decoration: none;
+            }
+
+            /* ── Section ── */
+            .section {
+                margin-bottom: 1.35rem;
+            }
+            .section-label {
+                font-size: 9.5px;
+                font-weight: 600;
+                letter-spacing: 1.8px;
+                text-transform: uppercase;
+                color: var(--text-secondary);
+                padding-bottom: 4px;
+                border-bottom: 0.5px solid var(--border-light);
+                margin-bottom: 0.65rem;
+            }
+
+            /* ── Job entries ── */
+            .job {
+                margin-bottom: 0.9rem;
+            }
+            .job-header {
+                display: flex;
+                justify-content: space-between;
+                align-items: baseline;
+                gap: 8px;
+            }
+            .job-title {
+                font-weight: 600;
+                font-size: 13px;
+            }
+            .job-company {
+                font-size: 12.5px;
+                color: var(--text-secondary);
+                margin-top: 1px;
+            }
+            .job-company a {
+                color: inherit;
+                text-decoration: none;
+            }
+            .job-meta {
+                text-align: right;
+                flex-shrink: 0;
+            }
+            .job-date {
+                font-family: var(--mono);
+                font-size: 11px;
+                color: var(--text-secondary);
+            }
+            .job-loc {
+                font-size: 10.5px;
+                color: var(--text-muted);
+                margin-top: 1px;
+            }
+
+            .job ul {
+                margin-top: 5px;
+                padding-left: 1.1rem;
+                list-style: none;
+            }
+            .job li {
+                position: relative;
+                font-size: 12.5px;
+                line-height: 1.55;
+                margin-bottom: 2px;
+                color: var(--text-primary);
+            }
+            .job li::before {
+                content: "—";
+                position: absolute;
+                left: -1.05rem;
+                color: var(--text-muted);
+            }
+            .hl {
+                font-weight: 500;
+            }
+
+            .divider {
+                height: 0.5px;
+                background: var(--border-light);
+                margin: 0.8rem 0;
+            }
+
+            /* ── Projects ── */
+            .projects-grid {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                gap: 0.65rem;
+            }
+            .project-card {
+                border: 0.5px solid var(--border);
+                border-radius: 6px;
+                padding: 10px 13px;
+            }
+            .project-name {
+                font-family: var(--mono);
+                font-weight: 500;
+                font-size: 12.5px;
+            }
+            .project-desc {
+                font-size: 11.5px;
+                color: var(--text-secondary);
+                margin-top: 3px;
+                line-height: 1.5;
+            }
+            .project-link {
+                font-family: var(--mono);
+                font-size: 10.5px;
+                color: var(--text-muted);
+                text-decoration: none;
+                display: block;
+                margin-top: 5px;
+            }
+            .project-tags {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 3px;
+                margin-top: 5px;
+            }
+            .ptag {
+                font-family: var(--mono);
+                font-size: 10px;
+                color: var(--text-muted);
+            }
+            .ptag:not(:last-child)::after {
+                content: " ·";
+            }
+
+            /* ── Skills ── */
+            .skills-grid {
+                display: grid;
+                grid-template-columns: repeat(4, 1fr);
+                gap: 0.55rem;
+            }
+            .skill-group {
+                background: var(--bg-skill);
+                border-radius: 6px;
+                padding: 9px 11px;
+            }
+            .skill-label {
+                font-size: 9px;
+                font-weight: 600;
+                letter-spacing: 1.2px;
+                text-transform: uppercase;
+                color: var(--text-muted);
+                margin-bottom: 5px;
+            }
+            .skill-tags {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 4px;
+            }
+            .stag {
+                font-family: var(--mono);
+                font-size: 11px;
+                color: var(--text-secondary);
+                background: #fff;
+                border: 0.5px solid var(--border);
+                border-radius: 4px;
+                padding: 1px 6px;
+            }
+
+            /* ── Education ── */
+            .edu-row {
+                display: flex;
+                justify-content: space-between;
+                align-items: baseline;
+            }
+            .edu-inst {
+                font-weight: 600;
+                font-size: 13px;
+            }
+            .edu-degree {
+                font-size: 12.5px;
+                color: var(--text-secondary);
+                margin-top: 2px;
+            }
+            .edu-right {
+                text-align: right;
+            }
+            .edu-date {
+                font-family: var(--mono);
+                font-size: 11px;
+                color: var(--text-secondary);
+            }
+            .edu-gpa {
+                font-size: 10.5px;
+                color: var(--text-muted);
+                margin-top: 2px;
+            }
+
+            /* ── Awards ── */
+            .award-row {
+                display: flex;
+                justify-content: space-between;
+                align-items: baseline;
+            }
+            .award-title {
+                font-size: 12.5px;
+                font-weight: 500;
+            }
+            .award-meta {
+                font-family: var(--mono);
+                font-size: 11px;
+                color: var(--text-secondary);
+            }
+
+            /* ── Print styles ── */
+            @media print {
+                html,
+                body {
+                    font-size: 12px;
+                }
+                .page {
+                    padding: 1.4rem 1.8rem;
+                    max-width: 100%;
+                }
+                .no-print {
+                    display: none !important;
+                }
+                a {
+                    color: inherit !important;
+                }
+                .project-card {
+                    break-inside: avoid;
+                }
+                .job {
+                    break-inside: avoid;
+                }
+                .section {
+                    break-inside: avoid;
+                }
+            }
+
+            /* ── Print button (screen only) ── */
+            .print-bar {
+                position: fixed;
+                bottom: 1.5rem;
+                right: 1.5rem;
+                display: flex;
+                gap: 8px;
+                z-index: 100;
+            }
+            .print-btn {
+                background: #1a1a1a;
+                color: #fff;
+                border: none;
+                border-radius: 6px;
+                padding: 9px 18px;
+                font-family: var(--mono);
+                font-size: 12px;
+                cursor: pointer;
+                display: flex;
+                align-items: center;
+                gap: 6px;
+                box-shadow: 0 2px 8px rgba(0, 0, 0, 0.18);
+            }
+            .print-btn:hover {
+                background: #333;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="page">
+            <!-- Header -->
+            <div class="header">
+                <div>
+                    <div class="name">Bhavya Dang</div>
+                    <div class="tagline">Software Engineer · Delhi, India</div>
+                </div>
+                <div class="contact">
+                    <a href="mailto:bhavya.dang1207@gmail.com"
+                        >bhavya.dang1207@gmail.com</a
+                    >
+                    <a href="https://bhavyadang.in">bhavyadang.in</a>
+                    <a href="https://github.com/bhavya-dang"
+                        >github.com/bhavya-dang</a
+                    >
+                </div>
+            </div>
+
+            <!-- Experience -->
+            <div class="section">
+                <div class="section-label">Experience</div>
+
+                <div class="job">
+                    <div class="job-header">
+                        <div>
+                            <div class="job-title">
+                                SVT/PV Software Systems Engineer
+                            </div>
+                            <div class="job-company">
+                                <a href="https://ciena.com">Ciena</a>
+                            </div>
+                        </div>
+                        <div class="job-meta">
+                            <div class="job-date">Jul 2025 — Present</div>
+                            <div class="job-loc">Hybrid, Delhi</div>
+                        </div>
+                    </div>
+                    <ul>
+                        <li>
+                            Led a multi-sprint infrastructure optimisation
+                            initiative that achieved a
+                            <span class="hl">100% pass rate</span> across
+                            multiple releases
+                        </li>
+                        <li>
+                            Built dynamic AI utilities for regression and
+                            root-cause analysis, increasing testing workflow
+                            efficiency by <span class="hl">~20%</span>
+                        </li>
+                        <li>
+                            Develop and maintain automated test suites for
+                            Navigator NCS, Ciena's photonic network management
+                            platform
+                        </li>
+                        <li>
+                            Drive cross-functional collaboration with
+                            development and network engineering teams to refine
+                            testing methodologies
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="divider"></div>
+
+                <div class="job">
+                    <div class="job-header">
+                        <div>
+                            <div class="job-title">SDET Intern</div>
+                            <div class="job-company">
+                                <a href="https://ciena.com">Ciena</a>
+                            </div>
+                        </div>
+                        <div class="job-meta">
+                            <div class="job-date">Jan 2025 — Jun 2025</div>
+                            <div class="job-loc">Hybrid, Delhi</div>
+                        </div>
+                    </div>
+                    <ul>
+                        <li>
+                            Prototyped a Playwright-based API automation rewrite
+                            for PlannerPlus, targeting significantly faster and
+                            more versatile test execution
+                        </li>
+                        <li>
+                            Proposed and shipped enhancements to existing API
+                            automation scripts, improving readability and
+                            reducing testing downtime
+                        </li>
+                        <li>
+                            Partnered with development and network engineering
+                            teams to improve test coverage and software quality
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="divider"></div>
+
+                <div class="job">
+                    <div class="job-header">
+                        <div>
+                            <div class="job-title">Co-founder</div>
+                            <div class="job-company">
+                                <a href="https://thinkspacedel.in"
+                                    >Thinkspace</a
+                                >
+                                ·
+                                <span style="font-size: 11px"
+                                    >thinkspacedel.in</span
+                                >
+                            </div>
+                        </div>
+                        <div class="job-meta">
+                            <div class="job-date">Jun 2026 — Present</div>
+                            <div class="job-loc">Delhi</div>
+                        </div>
+                    </div>
+                    <ul>
+                        <li>
+                            Co-founded a creative maker community in Delhi for
+                            people who actively build and create —
+                            <span class="hl">10+ members</span> within the first
+                            week of launch
+                        </li>
+                        <li>
+                            Built the full-stack platform (React + Supabase +
+                            Netlify) with an admin review dashboard, RLS
+                            policies, and automated member approval workflows
+                        </li>
+                        <li>
+                            Lead brand design and community growth, including
+                            Instagram content and identity system
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="divider"></div>
+
+                <div class="job">
+                    <div class="job-header">
+                        <div>
+                            <div class="job-title">Full-Stack Trainee</div>
+                            <div class="job-company">
+                                <a
+                                    href="https://www.sustainable-discipleship.com/"
+                                    >D2I Technology</a
+                                >
+                            </div>
+                        </div>
+                        <div class="job-meta">
+                            <div class="job-date">May 2024 — Jul 2024</div>
+                            <div class="job-loc">Remote</div>
+                        </div>
+                    </div>
+                    <ul>
+                        <li>
+                            Built the Sustainable Discipleship platform —
+                            community management, Scripture integration, and
+                            role-based UI for hundreds of members
+                        </li>
+                        <li>
+                            Implemented GDPR-compliant data privacy protocols
+                            and secure authentication across the platform
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="divider"></div>
+
+                <div class="job">
+                    <div class="job-header">
+                        <div>
+                            <div class="job-title">Active Volunteer</div>
+                            <div class="job-company">
+                                ALiAS — Amity Linux Assistance Sapience
+                            </div>
+                        </div>
+                        <div class="job-meta">
+                            <div class="job-date">2022 — 2024</div>
+                            <div class="job-loc">Delhi</div>
+                        </div>
+                    </div>
+                    <ul>
+                        <li>
+                            Conducted a MEVN Stack workshop attended by
+                            <span class="hl">50+ participants</span>
+                        </li>
+                        <li>
+                            Organised 4 back-to-back major events averaging
+                            <span class="hl">150 attendees</span> each
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Projects -->
+            <div class="section">
+                <div class="section-label">Projects</div>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-name">memoradb</div>
+                        <div class="project-desc">
+                            Lightweight, type-safe, Redis-like in-memory
+                            key-value store
+                        </div>
+                        <div class="project-tags">
+                            <span class="ptag">TypeScript</span>
+                            <span class="ptag">Redis</span>
+                        </div>
+                        <a
+                            class="project-link"
+                            href="https://www.npmjs.com/package/memoradb"
+                            >npmjs.com/package/memoradb ↗</a
+                        >
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-name">LightsOut</div>
+                        <div class="project-desc">
+                            RAG chat app for Formula One — Next.js, Langchain,
+                            AstraDB, Gemini
+                        </div>
+                        <div class="project-tags">
+                            <span class="ptag">Next.js</span>
+                            <span class="ptag">RAG</span>
+                            <span class="ptag">Langchain</span>
+                        </div>
+                        <a
+                            class="project-link"
+                            href="https://lightsout.bhavyadang.in"
+                            >lightsout.bhavyadang.in ↗</a
+                        >
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-name">browser-mingle</div>
+                        <div class="project-desc">
+                            Chrome extension connecting users browsing similar
+                            content in real-time
+                        </div>
+                        <div class="project-tags">
+                            <span class="ptag">React</span>
+                            <span class="ptag">Supabase</span>
+                            <span class="ptag">Pinecone</span>
+                        </div>
+                        <a
+                            class="project-link"
+                            href="https://bhavya-dang.github.io/browser-mingle-landing/"
+                            >bhavya-dang.github.io ↗</a
+                        >
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-name">RyujinBot</div>
+                        <div class="project-desc">
+                            Multi-purpose Discord bot active in
+                            <span class="hl">20+ servers</span>, serving 143k+
+                            members
+                        </div>
+                        <div class="project-tags">
+                            <span class="ptag">Discord.js</span>
+                            <span class="ptag">Node.js</span>
+                        </div>
+                        <a
+                            class="project-link"
+                            href="https://github.com/bhavya-dang/RyujinBot"
+                            >github.com/bhavya-dang ↗</a
+                        >
+                    </div>
+                </div>
+            </div>
+
+            <!-- Skills -->
+            <div class="section">
+                <div class="section-label">Skills</div>
+                <div class="skills-grid">
+                    <div class="skill-group">
+                        <div class="skill-label">Languages</div>
+                        <div class="skill-tags">
+                            <span class="stag">Go</span>
+                            <span class="stag">TypeScript</span>
+                            <span class="stag">Python</span>
+                            <span class="stag">JavaScript</span>
+                            <span class="stag">Swift</span>
+                        </div>
+                    </div>
+                    <div class="skill-group">
+                        <div class="skill-label">Frameworks</div>
+                        <div class="skill-tags">
+                            <span class="stag">React</span>
+                            <span class="stag">Next.js</span>
+                            <span class="stag">Vue.js</span>
+                            <span class="stag">Tailwind</span>
+                            <span class="stag">SwiftUI</span>
+                        </div>
+                    </div>
+                    <div class="skill-group">
+                        <div class="skill-label">Databases</div>
+                        <div class="skill-tags">
+                            <span class="stag">PostgreSQL</span>
+                            <span class="stag">Supabase</span>
+                            <span class="stag">MongoDB</span>
+                            <span class="stag">Redis</span>
+                            <span class="stag">MySQL</span>
+                        </div>
+                    </div>
+                    <div class="skill-group">
+                        <div class="skill-label">Tools</div>
+                        <div class="skill-tags">
+                            <span class="stag">Git</span>
+                            <span class="stag">Docker</span>
+                            <span class="stag">Playwright</span>
+                            <span class="stag">Figma</span>
+                            <span class="stag">Fly.io</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Education -->
+            <div class="section">
+                <div class="section-label">Education</div>
+                <div class="edu-row">
+                    <div>
+                        <div class="edu-inst">Amity University, Noida</div>
+                        <div class="edu-degree">B.Tech in Computer Science</div>
+                    </div>
+                    <div class="edu-right">
+                        <div class="edu-date">2021 — 2025</div>
+                        <div class="edu-gpa">GPA 8.43 / 10</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Awards -->
+            <div class="section">
+                <div class="section-label">Awards</div>
+                <div class="award-row">
+                    <div class="award-title">
+                        Gold Medal — Zonal Robotics Competition
+                    </div>
+                    <div class="award-meta">Government · 2019</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Print button (hidden when printing) -->
+        <div class="print-bar no-print">
+            <button class="print-btn" onclick="window.print()">
+                ⎙ Print / Save as PDF
+            </button>
+        </div>
+    </body>
 </html>
